@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "zxb1+vRcB6QmtBGqwjfzcyd/ztlMPCQJGPMnuj/7+NVl2/uJ0s147VzRFaF66WLzwmFFY+QOUn0lTHqtNY9ZRQ==",
+  "success": true,
+  "projectFilePath": "/home/lakshan/Documents/work/fSharp/F#/F#.fsproj",
+  "expectedPackageFiles": [
+    "/home/lakshan/.nuget/packages/fsharp.core/8.0.102/fsharp.core.8.0.102.nupkg.sha512",
+    "/home/lakshan/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.10/microsoft.aspnetcore.app.ref.8.0.10.nupkg.sha512"
+  ],
+  "logs": []
+}

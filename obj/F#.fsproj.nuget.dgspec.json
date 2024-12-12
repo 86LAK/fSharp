@@ -1,0 +1,71 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/lakshan/Documents/work/fSharp/F#/F#.fsproj": {}
+  },
+  "projects": {
+    "/home/lakshan/Documents/work/fSharp/F#/F#.fsproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/lakshan/Documents/work/fSharp/F#/F#.fsproj",
+        "projectName": "F#",
+        "projectPath": "/home/lakshan/Documents/work/fSharp/F#/F#.fsproj",
+        "packagesPath": "/home/lakshan/.nuget/packages/",
+        "outputPath": "/home/lakshan/Documents/work/fSharp/F#/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/lakshan/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "/usr/share/dotnet/sdk/8.0.110/FSharp/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "FSharp.Core": {
+              "include": "Runtime, Compile, Build, Native, Analyzers, BuildTransitive",
+              "target": "Package",
+              "version": "[8.0.102, )",
+              "generatePathProperty": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.10, 8.0.10]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.110/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
