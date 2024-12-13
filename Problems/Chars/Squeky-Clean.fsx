@@ -7,8 +7,8 @@ let transform (c: char) : string =
   | '-' -> "_"
   | ' ' -> ""
   | c when c >= '0' && c <= '9' -> ""
-  | c when c >= 'A' && c < '☺️' -> $"-{Char.ToLower(c)}"
-  | c when c >= 'α' && c<= 'ω' -> "?"
+  | c when c = Char.ToUpper(c) && c < '☺' -> $"-{Char.ToLower(c)}"
+  | c when c >= 'α' && c <= 'ω' -> "?"
   | _ -> c.ToString()
   
 
